@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C1DBC5235A45EA00B4188A /* BillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1DBC4235A45EA00B4188A /* BillController.swift */; };
+		04C1DBC7235A45F200B4188A /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1DBC6235A45F200B4188A /* Bill.swift */; };
 		F5331DF6235A41DC009ACD66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5331DF5235A41DC009ACD66 /* AppDelegate.swift */; };
-		F5331DF8235A41DC009ACD66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5331DF7235A41DC009ACD66 /* ViewController.swift */; };
+		F5331DF8235A41DC009ACD66 /* ReceiptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5331DF7235A41DC009ACD66 /* ReceiptVC.swift */; };
 		F5331DFB235A41DC009ACD66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5331DF9235A41DC009ACD66 /* Main.storyboard */; };
 		F5331DFE235A41DC009ACD66 /* BillCalc10.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5331DFC235A41DC009ACD66 /* BillCalc10.xcdatamodeld */; };
 		F5331E00235A41DE009ACD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5331DFF235A41DE009ACD66 /* Assets.xcassets */; };
 		F5331E03235A41DE009ACD66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5331E01235A41DE009ACD66 /* LaunchScreen.storyboard */; };
+		F5331E0D235A4302009ACD66 /* Mobile Pay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5331E0C235A4302009ACD66 /* Mobile Pay.jpg */; };
+		F5331E12235A4403009ACD66 /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5331E11235A4403009ACD66 /* InputVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04C1DBC4235A45EA00B4188A /* BillController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillController.swift; sourceTree = "<group>"; };
+		04C1DBC6235A45F200B4188A /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		F5331DF2235A41DC009ACD66 /* BillCalc10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillCalc10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5331DF5235A41DC009ACD66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5331DF7235A41DC009ACD66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5331DF7235A41DC009ACD66 /* ReceiptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptVC.swift; sourceTree = "<group>"; };
 		F5331DFA235A41DC009ACD66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5331DFD235A41DC009ACD66 /* BillCalc10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BillCalc10.xcdatamodel; sourceTree = "<group>"; };
 		F5331DFF235A41DE009ACD66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5331E02235A41DE009ACD66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5331E04235A41DE009ACD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5331E0C235A4302009ACD66 /* Mobile Pay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mobile Pay.jpg"; sourceTree = "<group>"; };
+		F5331E11235A4403009ACD66 /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C1DBC2235A459300B4188A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				04C1DBC6235A45F200B4188A /* Bill.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		04C1DBC3235A459800B4188A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				04C1DBC4235A45EA00B4188A /* BillController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		F5331DE9235A41DC009ACD66 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +80,27 @@
 		F5331DF4235A41DC009ACD66 /* BillCalc10 */ = {
 			isa = PBXGroup;
 			children = (
+				04C1DBC3235A459800B4188A /* controller */,
+				04C1DBC2235A459300B4188A /* model */,
+				F5331E10235A43A8009ACD66 /* view */,
 				F5331DF5235A41DC009ACD66 /* AppDelegate.swift */,
-				F5331DF7235A41DC009ACD66 /* ViewController.swift */,
 				F5331DF9235A41DC009ACD66 /* Main.storyboard */,
 				F5331DFF235A41DE009ACD66 /* Assets.xcassets */,
+				F5331E0C235A4302009ACD66 /* Mobile Pay.jpg */,
 				F5331E01235A41DE009ACD66 /* LaunchScreen.storyboard */,
 				F5331E04235A41DE009ACD66 /* Info.plist */,
 				F5331DFC235A41DC009ACD66 /* BillCalc10.xcdatamodeld */,
 			);
 			path = BillCalc10;
+			sourceTree = "<group>";
+		};
+		F5331E10235A43A8009ACD66 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F5331DF7235A41DC009ACD66 /* ReceiptVC.swift */,
+				F5331E11235A4403009ACD66 /* InputVC.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +164,7 @@
 				F5331E03235A41DE009ACD66 /* LaunchScreen.storyboard in Resources */,
 				F5331E00235A41DE009ACD66 /* Assets.xcassets in Resources */,
 				F5331DFB235A41DC009ACD66 /* Main.storyboard in Resources */,
+				F5331E0D235A4302009ACD66 /* Mobile Pay.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +176,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5331DFE235A41DC009ACD66 /* BillCalc10.xcdatamodeld in Sources */,
-				F5331DF8235A41DC009ACD66 /* ViewController.swift in Sources */,
+				04C1DBC5235A45EA00B4188A /* BillController.swift in Sources */,
+				F5331E12235A4403009ACD66 /* InputVC.swift in Sources */,
+				F5331DF8235A41DC009ACD66 /* ReceiptVC.swift in Sources */,
+				04C1DBC7235A45F200B4188A /* Bill.swift in Sources */,
 				F5331DF6235A41DC009ACD66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,13 +327,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M28C9P5JXU;
+				DEVELOPMENT_TEAM = QWD7MX6ADT;
 				INFOPLIST_FILE = BillCalc10/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jz.BillCalc10;
+				PRODUCT_BUNDLE_IDENTIFIER = MK.BillCalc10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,13 +345,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M28C9P5JXU;
+				DEVELOPMENT_TEAM = QWD7MX6ADT;
 				INFOPLIST_FILE = BillCalc10/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jz.BillCalc10;
+				PRODUCT_BUNDLE_IDENTIFIER = MK.BillCalc10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

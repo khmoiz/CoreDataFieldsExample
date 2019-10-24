@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  BillCalc10
 //
-//  Created by Zakim Javer on 2019-10-18.
-//  Copyright © 2019 Zakim Javer. All rights reserved.
+//  Created by Moiz Khan on 2019-10-18.
+//  Copyright © 2019 Moiz Khan. All rights reserved.
 //
 
 import UIKit
